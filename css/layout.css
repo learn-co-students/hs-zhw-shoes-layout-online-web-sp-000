@@ -24,4 +24,20 @@
 
 /* Positioning Classes */
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 1em;
+}
 
+
+.featured-col {
+  grid-column-start: span 2;
+}
+
+.info {
+  float: left;
+  width: 33.33%;
+  padding-left: 1em;
+}
