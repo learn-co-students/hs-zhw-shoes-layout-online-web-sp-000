@@ -50,6 +50,11 @@
 
 /* MARGIN AT THE TOP OF DETAILS??? */
 
+
+#details {
+    margin: 0;
+}
+
 #details div {
 	width: 31%;
 	float: left;
