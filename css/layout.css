@@ -24,13 +24,21 @@
 
 /* Positioning Classes */
 
-#featured-brands {
+.milk_text {
+	padding-top: 0.5em;
+}
 
+#featured-brands {
+	float: left;
+	width: 65%;
+	/*margin-right: 1em;*/
 }
 
 #shoe-archive {
-
+	float: right;
+	width: 33%;
 }
+
 
 #deals .shadow {
 	float: left;
@@ -41,6 +49,8 @@
 #deals .col-middle {
 	margin: 1em;
 }
+
+/* MARGIN AT THE TOP OF DETAILS??? */
 
 #details div {
 	width: 31%;
