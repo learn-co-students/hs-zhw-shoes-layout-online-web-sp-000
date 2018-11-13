@@ -38,10 +38,12 @@
 	width: 32.2%;
 }
 
-.col-middle {
+#deals .col-middle {
 	margin: 1em;
 }
 
-#details {
-
+#details div {
+	width: 31%;
+	float: left;
+	margin-right: 1em;
 }
