@@ -24,4 +24,39 @@
 
 /* Positioning Classes */
 
+.milk_text {
+	padding-top: 0.5em;
+}
 
+#featured-brands {
+	float: left;
+	width: 65%;
+}
+
+#shoe-archive {
+	float: right;
+	width: 33%;
+}
+
+#deals .shadow {
+	float: left;
+	margin-top: 1em;
+	width: 32.2%;
+}
+
+#deals .col-middle {
+	margin: 1em;
+}
+
+/* MARGIN AT THE TOP OF DETAILS??? */
+
+
+#details {
+    margin: 0;
+}
+
+#details div {
+	width: 31%;
+	float: left;
+	margin-right: 1em;
+}
