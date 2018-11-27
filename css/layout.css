@@ -24,4 +24,37 @@
 
 /* Positioning Classes */
 
+#column-1 {
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+}
 
+#column-2 {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#column-3 {
+  float: right;
+  width: 32%;
+  margin-left: 1%;
+}
+
+#brands {
+  float: left;
+  width: 65.666%;
+  margin-right: 1%
+}
+
+#archive {
+  float: right;
+  width: 32%;
+  margin-left: 1%
+}
+
+.features {
+  margin-bottom: 20px;
+}
