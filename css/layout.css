@@ -13,7 +13,7 @@
 
  .row {
   clear: both;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .row:after {
@@ -25,14 +25,22 @@
   line-height: 0;
 }
 
-[class*="col-"] {
+[class*="col-2"] {
   float: left;
   margin-left: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1.25%;
 }
 
-.col-1 { width: 65%; }
-.col-2 { width: 25%; }
+[class*="col-1"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
 
-.archivecontainer {
-  height: 90px;
+.col-1 { width: 64%; }
+.col-2 { width: 31%; }
+
+.clearfix {
+    overflow: auto;
 }
