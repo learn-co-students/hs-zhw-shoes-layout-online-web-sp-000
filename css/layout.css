@@ -9,6 +9,34 @@
   -moz-box-sizing: border-box;
 }
 
+.column {
+  display: table;
+}
+
+.column-2 {
+
+  display: table;
+  position: relative;
+
+  margin: 10px;
+}
+
+
+.column-offset-1 {
+  float: left;
+  width:31%;
+  display: table-cell;
+  column-fill: balance;
+}
+
+.column-offset-2 {
+  float: left;
+  width:64%;
+   display: table-cell;
+  column-fill: balance;
+}
+
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +51,4 @@
 }
 
 /* Positioning Classes */
-
 
