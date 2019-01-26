@@ -118,7 +118,7 @@ iframe {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
 }
 
 .border_right {
@@ -254,6 +254,49 @@ a.gplus:active { background-position: -80px -80px; }
 
 /********** Sections **********/
 
+section.col-1 {
+  float: left;
+  width: 66%;
+  height: 600px;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+section.col-2 {
+  float: left;
+  height: 600px;
+  width: 32%;
+  margin-left: 1%;
+  margin-bottom:2%;
+}
+section.col-3 {
+  clear: both;
+  display: block;
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+}
+
+section.col-4 {
+  display: block;
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+section.col-5 {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+}
+
+div.bottom-links {
+  display: block;
+  float: left;
+  width: 33%;
+  padding: 15px;
+}
 section {
   padding: 20px;
   background: white;
