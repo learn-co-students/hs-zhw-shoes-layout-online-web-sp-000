@@ -23,5 +23,43 @@
 }
 
 /* Positioning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #fff
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+}
 
+.col-3 {
+  background: #fff;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.border_right .col-1{
+  border-right: 1px rgba(0, 0, 0, 0.5); solid;
+}
+
+#details .col-1 {
+  background: transparent;
+}
