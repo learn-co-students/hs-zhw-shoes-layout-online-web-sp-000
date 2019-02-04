@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -303,3 +303,44 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/********** Layout **********/
+
+.col-1 {
+  float: right;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  margin-bottom: 20px;
+}
+
+.container {
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 32%;
+}
+
+.right {
+  float: right;
+  width: 32%;
+}
+
+.middle {
+  float: left;
+  width: 32%;
+  margin: 0 18px;
+}
+
+.border {
+  border-right: 3px solid rgb(238, 238,238);
+}
+
+.holiday-sale {
+  margin-bottom: 20px;
+}
