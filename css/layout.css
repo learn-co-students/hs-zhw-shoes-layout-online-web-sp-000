@@ -22,4 +22,45 @@
   clear: both;
 }
 
-/* Positioning Classes */
+/********** Layout **********/
+
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  margin-bottom: 20px;
+}
+
+.container {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.left {
+  float: left;
+  width: 32%;
+}
+
+.right {
+  float: left;
+  width: 32%;
+}
+
+.middle {
+  float: left;
+  width: 32%;
+  margin: 0 2%;
+}
+
+.border {
+  border-right: 3px solid rgb(238, 238,238);
+}
+
+.holiday-sale {
+  margin-bottom: 20px;
+}
