@@ -302,4 +302,30 @@ footer a {
   text-decoration: underline;
 }
 
+.columns {
+  column-count: 3;
+}
+.two-column {
+  column-count: 2;
+  
+}
+
+.col-1 {
+  -webkit-column-width: auto;
+  -moz-column-width:auto;
+  column-width:auto;
+  
+}
+.col-2 {
+  -webkit-column-width: auto;
+  -moz-column-width:auto;
+  column-width:auto;
+  
+}
+
+
+.first {
+  margin-left:0%;
+}
+
 /* code examples copyright Jonathan Grover 2012 */
