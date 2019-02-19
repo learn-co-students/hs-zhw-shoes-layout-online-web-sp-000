@@ -24,4 +24,46 @@
 
 /* Positioning Classes */
 
+.column1{
+  float: left;
+}
 
+.column1.image {
+  width: 66%;
+}
+
+.column1.archive {
+  width: 32%;
+}
+
+.column2{
+  float: left;
+}
+
+.column2.ladybug {
+  width: 32%;
+}
+
+.column2.skate {
+  width: 32%;
+}
+
+.column2.heel {
+  width: 32%;
+}
+
+.column3 {
+  float: left;
+}
+
+.column3.contact {
+  width: 32%;
+}
+
+.column3.links {
+  width: 32%;
+}
+
+.column3.follow {
+  width: 32%;
+}
