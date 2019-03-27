@@ -24,4 +24,18 @@
 
 /* Positioning Classes */
 
+.first-row {
+  column-count: 3;
+  column-gap: 20px;
+  padding: 10px;
+}
 
+#featured-image {
+  column-span: 2;
+}
+
+.second-row {
+  column-count: 3;
+  column-gap: 20px;
+  padding: 10px;
+}
