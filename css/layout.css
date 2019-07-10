@@ -18,14 +18,7 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
+
 
 /* Positioning Classes */
 
-.archive {
-  float: left;
-  width: 32%;
-  margin: 0 0 10px 10px;
-}
