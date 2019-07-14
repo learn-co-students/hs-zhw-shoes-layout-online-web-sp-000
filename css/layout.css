@@ -22,6 +22,26 @@
   clear: both;
 }
 
-/* Positioning Classes */
+/* Posititoning Classes */
 
+.col_1 {
+  float: left;
+  width: 66%;
+}
 
+.col_2 {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+}
+
+.col_3 {
+  float: left;
+  margin: 0.5%;
+  width: 32%;
+}
+
+.border_right {
+  float: left;
+  width: 33.333%;
+}
